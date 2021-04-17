@@ -46,7 +46,7 @@ class BottomSheetFragment : BottomSheetDialogFragment() {
         mDisplay = view.findViewById(R.id.uiET1)
         mInputLayout = view.findViewById(R.id.uiIl1)
         val mDateRangePicker = MaterialDatePicker.Builder.dateRangePicker()
-            .setTheme(R.style.ThemeOverlay_MaterialComponents_MaterialCalendar) // for dialog
+            .setTheme(R.style.ThemeOverlay_MaterialComponents_MaterialCalendar) // for dialog i.e pop up
             .setTitleText("Select Dates For Transaction History")
             .setSelection(
                 Pair(
